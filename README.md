@@ -26,17 +26,6 @@ This is a dynamic URL shortener application designed to provide users with the a
 ### Tracking URL Usage
 - The dashboard displays a list of all shortened URLs created by the user, along with the number of clicks each URL has received.
 
-## API Endpoints
-
-### Authentication
-- `POST /api/signup` - Create a new user account.
-- `POST /api/login` - Authenticate a user and generate a JWT token.
-
-### URL Management
-- `POST /api/shorten` - Generate a shortened URL.
-- `GET /api/url/:shortcode` - Redirect to the original URL and increment click count.
-- `GET /api/urls` - Retrieve all shortened URLs created by the authenticated user.
-
 ## Technologies Used
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
